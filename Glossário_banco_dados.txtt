@@ -1,0 +1,72 @@
+*** Banco de Dados (BD)***
+Um banco de dados é uma coleção organizada de dados que permite o armazenamento, recuperação e manipulação de informações. Os dados são estruturados de maneira a facilitar o acesso e a gestão. Exemplos comuns de bancos de dados incluem:
+
+Relacionais: Estruturados em tabelas (ex: MySQL, PostgreSQL).
+Não-relacionais: Estruturados de outras formas, como documentos ou grafos (ex: MongoDB, Neo4j).
+
+
+*** Sistemas Gerenciadores de Banco de Dados (SGBD) ***
+Um SGBD é um software que fornece as ferramentas e a interface necessárias para criar, gerenciar e manipular bancos de dados.
+
+   _____Ele permite que os usuários realizem operações como:____
+____
+        Integridade de dados
+        Criação de bancos de dados e tabelas.
+        Inserção, atualização e exclusão de dados.
+        Consultas e recuperação de dados através de linguagens de consulta, como SQL.
+        Controle de acesso e segurança dos dados.
+        Backup e recuperação de dados.
+
+*** Relação entre BD e SGBD ***
+A relação entre um banco de dados e um SGBD é crucial:
+
+Gerenciamento: O SGBD atua como intermediário entre o usuário e o banco de dados, gerenciando a forma como os dados são armazenados e acessados.
+
+Eficiência: Um SGBD otimiza operações, garantindo que consultas sejam executadas de forma rápida e eficiente.
+
+Integridade e Segurança: O SGBD aplica regras para garantir a integridade dos dados e controlar o acesso, protegendo informações sensíveis.
+
+Facilidade de Uso: Oferece interfaces e ferramentas que tornam mais fácil para usuários e desenvolvedores interagirem com os dados.
+
+Em resumo, enquanto o banco de dados é a estrutura onde os dados são armazenados, o SGBD é a ferramenta que possibilita o gerenciamento eficaz desses dados.
+
+
+*** MODELO RELACIOMAL DE Banco de Dados ***
+      O modelo relacional de banco de dados é uma abordagem para organizar dados em tabelas, facilitando a sua manipulação e consulta.
+
+O modelo relacional de banco de dados é uma abordagem poderosa para armazenar e manipular dados de forma estruturada, promovendo integridade e consistência.
+
+
+                  ____Componentes Principais do Modelo Relacional____
+
+**Tabelas (Relações):
+
+Dados são organizados em tabelas, onde cada tabela representa uma entidade (ex: Clientes, Produtos).
+Cada tabela é composta por linhas (tuplas) e colunas (atributos).
+
+**Atributos:
+
+As colunas da tabela, cada uma representando uma característica da entidade. Por exemplo, uma tabela de Clientes pode ter atributos como ID, Nome, Email, e Telefone.
+
+**Tuplas:
+
+As linhas da tabela, cada uma representando uma instância da entidade. Por exemplo, um registro de cliente específico.
+
+**Chave Primária:
+
+Um ou mais atributos que identificam de forma única cada tupla em uma tabela. Por exemplo, o ID do cliente.
+
+**Chave Estrangeira:
+
+Um atributo que cria uma relação entre duas tabelas. Ele é uma chave primária de outra tabela. Por exemplo, em uma tabela de Pedidos, o ID do cliente pode ser uma chave estrangeira que se refere à tabela de Clientes
+
+
+                                  ______Propriedades do Modelo Relacional:_____
+Independência de Dados: Permite que mudanças na estrutura do banco de dados não afetem as aplicações que o utilizam.
+Integridade Referencial: As relações entre tabelas garantem que os dados sejam consistentes. Por exemplo, um pedido não pode referenciar um cliente que não existe.
+Manipulação através de SQL: A linguagem de consulta estruturada (SQL) é utilizada para interagir com bancos de dados relacionais, permitindo realizar operações de seleção, inserção, atualização e exclusão de dados
+
+
+                                          ______  MICRO SERVIÇOS ______
+Conjunto de serviços que se comunicam entre si.Cada microserviço é responsável por uma funcionalidade específica da aplicação, o que traz flexibilidade, escalabilidade e manutenção simplificada.
+  
