@@ -1,0 +1,34 @@
+                          Projeto de Banco de Dados: Aula dia 10/03
+
+          -Modelagem- elencar/identificar/destacar requisitos (estruturais e funcionais)
+  Modelagem conceitual (Diagrama ER):
+-Atributos: Identificador(primary key) e ordinarios
+-Relacionamento
+-Associação
+-Herença
+-Dependencia
+
+      Cardinalidade -> Quantidade de um elemento de uma tabela que se relaciona com elementos de outra tabela.
+-FUNDAMENTAL para definir as chaves estrangeiras.
+Tipos:
+1..1
+1..*
+*...*
+
+            Modelagem Lógica:
+  Características da Modelagem Lógica:
+-Mostra entidades (que viram tabelas).
+-Define atributos (que viram colunas).
+-Especifica os tipos de relacionamento (1:1, 1:N, N:N).
+-Estabelece chaves primárias e chaves estrangeiras.
+-Aplica regras de integridade (restrições como NOT NULL, UNIQUE).
+
+      ***Transformação de entidades em tabelas**
+-Definição de chaves estrangeiras a partir da cardinalidade.
+1..1 --> A chave estrangeria pode estar em qualquer uma das entidades.
+1..* --> A chave estrangeira vai para o lado da tabela que tem o "n".
+*..* --> Cria-se uma terceira tabela onde as chaves primarias das duas tabelas vão se juntar na tabela criada.
+
+
+
+
